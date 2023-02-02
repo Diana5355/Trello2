@@ -1,87 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class tests.CardCreation</title>
-<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
-<link href="../css/style.css" rel="stylesheet" type="text/css"/>
-<script src="../js/report.js" type="text/javascript"></script>
-</head>
-<body>
-<div id="content">
-<h1>Class tests.CardCreation</h1>
-<div class="breadcrumbs">
-<a href="../index.html">all</a> &gt; 
-<a href="../packages/tests.html">tests</a> &gt; CardCreation</div>
-<div id="summary">
-<table>
-<tr>
-<td>
-<div class="summaryGroup">
-<table>
-<tr>
-<td>
-<div class="infoBox" id="tests">
-<div class="counter">1</div>
-<p>tests</p>
-</div>
-</td>
-<td>
-<div class="infoBox" id="failures">
-<div class="counter">1</div>
-<p>failures</p>
-</div>
-</td>
-<td>
-<div class="infoBox" id="ignored">
-<div class="counter">0</div>
-<p>ignored</p>
-</div>
-</td>
-<td>
-<div class="infoBox" id="duration">
-<div class="counter">11.967s</div>
-<p>duration</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</td>
-<td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
-<p>successful</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-<div id="tabs">
-<ul class="tabLinks">
-<li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
-</li>
-</ul>
-<div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="cardCreation1"></a>
-<h3 class="failures">cardCreation1</h3>
-<span class="code">
-<pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=109.0.5414.87)
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.UserModification" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-02-02T17:16:27" hostname="Air-Diana.home" time="17.327">
+  <properties/>
+  <testcase name="changeAvatar" classname="tests.UserModification" time="17.327">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;image-input&quot;}&#10;  (Session info: chrome=109.0.5414.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.4.0', revision: 'e5c75ed026a'&#10;System info: host: 'Air-Diana.home', ip: 'fd01:0:0:0:1075:aebe:7bd7:8479%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0.1', java.version: '11.0.17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [08b88e986a892230242aa54e12366f33, findElement {using=css selector, value=image-input}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/wy/lhj2chjn7l7...}, goog:chromeOptions: {debuggerAddress: localhost:49669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49669/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 08b88e986a892230242aa54e12366f33" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;image-input&quot;}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'Air-Diana.lan', ip: '2a0d:6fc2:4870:ea00:6818:7e93:2dcb:e726%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0.1', java.version: '11.0.17'
+System info: host: 'Air-Diana.home', ip: 'fd01:0:0:0:1075:aebe:7bd7:8479%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0.1', java.version: '11.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7b49f0b66713ec542d077a296947527a, clickElement {id=2f50b169-29c8-47ca-ac4b-93aff3642a38}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/wy/lhj2chjn7l7...}, goog:chromeOptions: {debuggerAddress: localhost:51145}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51145/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (7b49f0b66713ec542d077a296947527a)] -&gt; css selector: .list-name-input]
-Session ID: 7b49f0b66713ec542d077a296947527a
+Command: [08b88e986a892230242aa54e12366f33, findElement {using=css selector, value=image-input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/wy/lhj2chjn7l7...}, goog:chromeOptions: {debuggerAddress: localhost:49669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49669/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08b88e986a892230242aa54e12366f33
 	at java.base@11.0.17/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base@11.0.17/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base@11.0.17/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -93,12 +22,12 @@ Session ID: 7b49f0b66713ec542d077a296947527a
 	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at app//manage.HelperBase.click(HelperBase.java:18)
-	at app//manage.HelperBase.type(HelperBase.java:12)
-	at app//manage.ListHelper.createList(ListHelper.java:14)
-	at app//tests.CardCreation.cardCreation1(CardCreation.java:13)
+	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at app//manage.AtlassianHelper.uploadPhoto(AtlassianHelper.java:23)
+	at app//tests.UserModification.changeAvatar(UserModification.java:23)
 	at java.base@11.0.17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.17/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -145,37 +74,8 @@ Session ID: 7b49f0b66713ec542d077a296947527a
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
-<h2>Tests</h2>
-<table>
-<thead>
-<tr>
-<th>Test</th>
-<th>Duration</th>
-<th>Result</th>
-</tr>
-</thead>
-<tr>
-<td class="failures">cardCreation1</td>
-<td class="failures">11.967s</td>
-<td class="failures">failed</td>
-</tr>
-</table>
-</div>
-</div>
-<div id="footer">
-<p>
-<div>
-<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
-<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
-</label>
-</div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 23 янв. 2023 г., 19:58:56</p>
-</div>
-</div>
-</body>
-</html>
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

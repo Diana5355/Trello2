@@ -14,6 +14,7 @@ public class Login extends TestBase{
     @Test
     public void login1() {
         User user = User.builder().email("juliakliot.jk@gmail.com").password("misha240613").build();
+        logger.info("Test login positive 1--"+user.getEmail()+""+user.getPassword());
 
         app.getUser().initLogin();
         app.getUser().pause(2000);
